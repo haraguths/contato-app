@@ -9,6 +9,7 @@ import java.util.UUID;
 @Entity
 @Table(name="Endereco")
 public class Endereco implements Serializable {
+    
     @Serial
     private static final long serialVersionUID = 1L;
 
