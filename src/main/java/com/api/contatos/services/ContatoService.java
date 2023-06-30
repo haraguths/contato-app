@@ -59,6 +59,7 @@ public class ContatoService {
 
         contato.setEnderecos(enderecos);
     }
+    
 
     private Endereco atualizarEndereco(EnderecoDto enderecoDto, Contato contato) {
         if (Objects.nonNull(enderecoDto.getId())) {
